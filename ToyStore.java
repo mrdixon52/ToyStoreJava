@@ -48,7 +48,7 @@ public class ToyStore {
             if (random < toy.getFrequency()) {
                 prizeToys.add(toy);
                 toy.setQuantity(toy.getQuantity() - 1);
-                System.out.println("Вы выиграли: " + toy.getName() + "\n Не забудьте забрать ее!");
+                System.out.println("\n Вы выиграли: " + toy.getName() + "\n Не забудьте забрать ее!");
                 break;
             }
         }

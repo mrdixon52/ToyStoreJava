@@ -42,7 +42,7 @@ public class ToyRaffle {
                 case "5":
                     Toy prizeToy = store.getPrizeToy();
                     if (prizeToy != null) {
-                        System.out.println("Вы забрали выигрышную игрушку: " + prizeToy.getName());
+                        System.out.println("\nВы забрали выигрышную игрушку: " + prizeToy.getName());
                 };
                     break;
                 case "0":
